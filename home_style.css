@@ -1,0 +1,274 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    background-color: #000000;
+    font-family: "Pathway Extreme", sans-serif;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+header .top {
+    color: rgb(193, 195, 197);
+    background-color: rgb(10, 10, 10);
+    width: 1350px;
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    justify-content: space-between;
+}
+
+.logo a img {
+    height: 150px;
+    transition: transform 0.1s ease;
+}
+
+.logo a img:hover {
+    transform: scale(1.1);
+}
+
+#head-menu>ul {
+    margin-left: 15rem;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+#head-menu>ul>li {
+    margin-left: 2rem;
+}
+
+#head-menu>ul>li:hover {
+    transform: scale(1.2);
+}
+
+.menu-items {
+    transition: transform 0.3s ease;
+}
+
+.sign-in a img {
+    margin-left: 4.5rem;
+    margin-right: 20px;
+    height: 37px;
+}
+
+.sign-in a img:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease;
+}
+
+.home-banner {
+    position: relative;
+    width: 1320px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.video-bg {
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    padding-left: 15px;
+    padding-top: 20px;
+
+}
+
+.content {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search-container {
+    display: flex;
+    height: 70px;
+    width: 700px;
+    margin-bottom: 30px;
+
+}
+
+
+input[type="text"] {
+
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-right: #fff;
+    outline: none;
+}
+
+.search-container input[type="text"] {
+    font-size: 19px;
+    font-family: "Pathway Extreme", sans-serif;
+}
+
+.search-container button[type="submit"] {
+    font-size: 14px;
+    font-family: "Pathway Extreme", sans-serif;
+}
+
+button {
+    width: 15%;
+    background-color: #ff0000;
+    color: #ffffffd3;
+    border: 2px solid #000000;
+    border-left: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #a80202;
+    border-color: #180f0f;
+}
+
+#feedback {
+    width: 1350px;
+}
+
+#feedback p {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    margin-right: 40px;
+    color: #807373;
+}
+.above-bar{
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.above-bar a{
+    margin-left: 25px;
+    color: #838181;
+    text-decoration: none;
+}
+.above-bar a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+.recently-updated{
+    width: 100px;
+    height: 100%;
+    font-size: large;
+}
+.recently-updated p{
+    color: #c9c9c9;
+    font-weight: 100;
+    margin: 0%;
+    margin-left: 10px;
+}
+.outer-box-shows{
+    margin-top: 5px;
+    width: 100%;
+    height: 600px;
+    flex-direction: column;
+}
+.innerbox1{
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    width: 100%;
+}
+.innerbox2{
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    width: 100%;
+}
+.show{  
+    width: 200px;
+    height: 280px;
+    background-color: #272626;
+    overflow: hidden;
+}
+.shows img{
+    
+}
+.go_top {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.go-top {
+    font-size: 15px;
+    color: #929292;
+    text-decoration: none;
+}
+
+.go-top:hover {
+    color: rgb(212, 212, 212);
+    transform: scale(1.2);
+    transition: ease 0.3s;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    width: 95%;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.list a {
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+    margin: 0;
+    padding-left: 5rem;
+}
+.list a:hover{
+    transform:scale(1.1);
+    transition: transform 0.2s ease;
+} 
+
+.foot-major {
+    width: 95%;
+    margin-top: 10px;
+    display: flex;
+    height: 100px;
+}
+
+.foot-minor1 {
+    color: #666565;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.foot-minor2 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+#upper-line p{
+    color: #504f4f;
+    font-size: 17px;
+    padding: 0; 
+    margin: 0;
+}
+#lower-line p{
+    color: #504f4f;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
