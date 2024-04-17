@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    scrollbar-color: #4d4c4c49 #2c2c2c27;
 }
 .web{
     display: flex;
