@@ -59,7 +59,8 @@ html{
         background-color: #de2f2f;
     }
     .signup-body p input[id="text"]{
-     height: 15vh;
+     /* height: 15vh; */
+     padding-bottom: 120px;
      
     }
 
